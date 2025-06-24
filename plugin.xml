@@ -26,7 +26,7 @@
 			</feature>
 		</config-file>
 		<source-file src="src/ios/QrScanner.m" />
-		<framework src="ScanKitFrameWork" type="podspec" spec="1.1.0.304"/>
+		<podspec name="ScanKitFrameWork" version="1.1.0.304"/>
 		<preference name="CAMERA_USAGE_DESCRIPTION" default="请允许APP访问您的相机"/>
 		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
 			<string>$CAMERA_USAGE_DESCRIPTION</string>
